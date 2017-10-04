@@ -16,6 +16,17 @@
 	<dependencies>
 
 
+		<!-- Link backend project with frontend -->
+
+		<dependency>
+
+			<groupId>net.san</groupId>
+			<artifactId>shoppingbackend</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+
+		</dependency>
+
+
 
 		<!-- java ee api -->
 
@@ -32,7 +43,7 @@
 			<artifactId>spring-webmvc</artifactId>
 			<version>${spring-version}</version>
 		</dependency>
-		
+
 		<!-- JSTL -->
 		<dependency>
 			<groupId>jstl</groupId>
